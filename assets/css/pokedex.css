@@ -4,7 +4,6 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: darkgreen;
     color: white;
 }
 
@@ -18,6 +17,7 @@
 .pokemon .name {
     color: white;
     margin-bottom: .25rem;
+    text-transform: capitalize;
 }
 
 .pokemon .detail {
@@ -34,7 +34,7 @@
 }
 
 .pokemon .detail .types .type {
-    background-color: rgba(127, 255, 212, 0.589);
+    filter:brightness(1.2);
     margin-bottom: .5rem;
     padding: .25rem .5rem;
     border-radius: 1rem;
@@ -65,4 +65,59 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     
+}
+
+.normal {
+    background-color: #808080;
+}
+.poison {
+    background-color: purple;
+}
+.psychic {
+    background-color: palevioletred;
+}
+.grass {
+    background-color: rgb(105, 175, 0);
+}
+.ground {
+    background-color: rgb(158, 158, 47);
+}
+.ice {
+    background-color: rgb(128, 204, 223);
+}
+.fire {
+    background-color: rgb(245, 131, 66);
+}
+.rock {
+    background-color: rgb(85, 72, 35);
+}
+.dragon {
+    background-color: rgb(155, 136, 236);
+}
+.water {
+    background-color: rgb(60, 145, 255);
+}
+.bug {
+    background-color: rgb(80, 92, 62);
+}
+.dark {
+    background-color: rgb(82, 56, 27);
+}
+.fighting {
+    background-color: rgb(156, 80, 50);
+}
+.ghost {
+    background-color: rgb(93, 63, 128);
+}
+.steel {
+    background-color: rgba(202, 202, 202, 0.459);
+}
+.flying {
+    background-color: rgb(33, 97, 170);
+}
+.electric {
+    background-color: rgb(230, 230, 0);
+}
+.fairy {
+    background-color: rgb(182, 137, 145);
 }
